@@ -7,7 +7,7 @@ def detect_brute_force(log_file, threshold=3):
       ip = parts[0]
       status = parts[1]
 
-if status == "Failed":
+if status == "FAILED"
   if ip in failed_attempts:
     failed_attempts[ip] += 1
   else:
