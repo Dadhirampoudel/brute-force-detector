@@ -1,0 +1,19 @@
+C:\Users\krish\Downloads\brute-force-detector-main (4)\brute-force-detector-main>dir
+ Volume in drive C is OS
+ Volume Serial Number is 2AE5-CEB5
+
+ Directory of C:\Users\krish\Downloads\brute-force-detector-main (4)\brute-force-detector-main
+
+02/18/2026  12:19 AM    <DIR>          .
+02/18/2026  12:19 AM    <DIR>          ..
+02/18/2026  12:19 AM               749 log_analyzer.py
+02/18/2026  12:19 AM             1,056 README.md
+02/18/2026  12:24 AM               192 sample_log.txt
+               3 File(s)          1,997 bytes
+               2 Dir(s)  137,783,898,112 bytes free
+
+C:\Users\krish\Downloads\brute-force-detector-main (4)\brute-force-detector-main>python log_analyzer.py
+Suspicious IPs (Possible Brute Force Attacks):
+45.33.21.90 -> 7 failed attempts
+
+C:\Users\krish\Downloads\brute-force-detector-main (4)\brute-force-detector-main>
